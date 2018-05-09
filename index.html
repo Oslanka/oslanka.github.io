@@ -5,7 +5,7 @@
   <script>   
   function   searchFiles(){   
           var   fso   =   new   ActiveXObject("Scripting.FileSystemObject");   
-          var   f   =   fso.GetFolder("./image/");   
+          var   f   =   fso.GetFolder("./image");   
           var   fc   =   new   Enumerator(f.files);   
           var   s   =   "";   
           for   (;   !fc.atEnd();   fc.moveNext())   

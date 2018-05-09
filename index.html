@@ -4,7 +4,9 @@
   <meta   http-equiv="Content-Type"   content="text/html;   charset=gb2312">   
   <script>   
   function   searchFiles(){   
+  alert(1);
           var   fso   =   new   ActiveXObject("Scripting.FileSystemObject");   
+		  alert(2);
           var   f   =   fso.GetFolder("./image");   
           var   fc   =   new   Enumerator(f.files);   
           var   s   =   "";   
